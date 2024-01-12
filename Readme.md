@@ -26,3 +26,8 @@ SecRule REQUEST_PROTOCOL "@streq HTTP/2.0" \
 SecRule REQUEST_METHOD "@streq GET" \
     "id:1234,phase:1,deny,status:403,msg:'Blocking HTTP/2.0 requests'"
 ```
+# Malware classification
+
+I used a selenium based for obtain the max score
+
+see file [here](./pippo.side)
