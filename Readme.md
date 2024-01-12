@@ -1,5 +1,5 @@
 
-#Malware signature based detection
+# Malware signature based detection
 
 ```
 rule ExampleRule
@@ -15,7 +15,7 @@ rule ExampleRule
 ```
 
 
-#Web application firewall knowledge
+# Web application firewall knowledge
 
 ```
 SecRule REQUEST_PROTOCOL "@streq HTTP/2.0" \
